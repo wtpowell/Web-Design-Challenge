@@ -1,12 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Latitude and Weather Analysis</title>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-         <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="navbar">
+  <a href="#home">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Graphs 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="temp.html">Temperature</a>
+      <a href="humidity.html">Humidity</a>
+      <a href="cloudiness.html">Cloudiness</a>
+      <a href="wind.html">Wind</a>
+    </div>
+  </div> 
+</div>
 
-    </head>
+<div class="container text-center">
+  <h1 class="mt-5 text-white font-weight-light">Project: Latitude vs Various Variables</h1>
+  <p class="lead text-white-50">The purpose of this website is to organize data in the form of graphs that show how different variables related to weather change depending on differences in Latitude.</p>
+</div>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+
+</body>
 </html>
